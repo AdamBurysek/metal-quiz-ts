@@ -1,0 +1,25 @@
+{
+  "short_name": "Metal Quiz",
+  "name": "Can you guess all metals?",
+  "icons": [
+    {
+      "src": "quiz.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "quiz256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "quiz512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "ostatniweby/metalquiz",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
