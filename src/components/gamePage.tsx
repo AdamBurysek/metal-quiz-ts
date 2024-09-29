@@ -88,12 +88,11 @@ const GamePage = () => {
             left: slidePage(count),
           }}
         >
-          {finalArray.map((page, index) => {
+          {finalArray.map((page) => {
             return (
               <div
                 className="section"
-                // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
-                key={index}
+                key={finalArray[page.id].id}
                 style={{ transform: translatePage(page.id) }}
               >
                 <div className="grid-container">
